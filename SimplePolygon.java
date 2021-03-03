@@ -24,11 +24,10 @@ public class SimplePolygon{
     StdDraw.setPenColor(StdDraw.DARK_GRAY);
     
     //Enables the user to type in vertices for the simple polygon.
-    
     Scanner keyboard = new Scanner(System.in);
     System.out.println("Insert the vertices for the simple polygon: ");
     
-    
+    //Default simple polygon that is already created.
     double[] x = { 0.5, 0.4, 0.3, 0.5 };
     double[] y = { 0.2, 0.3, 0.2, 0.1 };
     StdDraw.polygon(x, y);
